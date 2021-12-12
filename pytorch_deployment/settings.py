@@ -14,6 +14,7 @@ model_path = os.path.join(folder_path, 'pytorch_DNN_model/pytorch_model_epoch_40
 PORT = 8000
 
 
+
 model = nn.Sequential(nn.Linear(36, 64),
                       nn.ReLU(),
                       nn.BatchNorm1d(64),
